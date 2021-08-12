@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Parv Joshi</title>
+
+    <link rel="icon" href="/Images/icon_.png">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".navbarlink").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+    <link href="./Styles/index.css" rel="stylesheet" type="text/css" />
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <div class="spot"></div>
+    <div class="home_section" id="home" data-anchor="home"></div>
+    <div class="header" id="change">
+        <div class="container">
+            <div class="nav_section" id="navigation">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand text-white" href="#">
+                        Parv Joshi<span style="font-weight:bolder;color:var(--pink-color)">.</span>
+                    </a>
+                    <button class="navbar-toggler" style="border:none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="text-white fa fa-bars"></i>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+            
+                        <li class="nav-item">
+                            <a class="nav-link navbarlink active" data-scroll="#home" id="nav-home" href="#home">Home</a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a class="nav-link navbarlink" data-scroll="#about" id="nav-about" href="#about">About</a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a class="nav-link navbarlink" data-scroll="#skills" id="nav-skills" href="#skills">Skills</a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a class="nav-link navbarlink" data-scroll="#projects" id="nav-projects" href="#projects">Projects</a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a class="nav-link navbarlink" href="https://medium.com/" target="blank_">Blog</a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a class="nav-link navbarlink" data-scroll="#contact" id="nav-contact" href="#contact">Contact</a>
+                        </li>
+            
+                    </ul>
+
+                    <img src="./Images/sun1.png" id="icon" />
+            
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+  <!-- HERO SECTION -->
+<div class="hero_section" id="hero" data-anchor="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+                <h3 style="font-weight:bold;color: var(--secondary-color)">Hello!</h3>
+
+                <h1>I<span style="color: var(--pink-color)">'</span>m Parv Joshi<span style="color:var(--pink-color)">.</span></h1>
+                
+                <h2>I<span style="color: var(--pink-color)">'</span>m interested in <span style="font-weight:bold;color:var(--pink-color)" class="typing"></span>.</h2>
+                
+                <p>Welcome to my portfolio website! Here, you can find information about me, my skills, and my projects. There is also a link to my blog, and a contact form that makes it easy to reach out to me. You can download my CV below. Also, feel free to connect with me using the social media links provided below.</p>
+                
+                <div class="btn_container">
+                    <a href="./Web Documents/CV Parv.pdf" target="blank_"><button class="btn btn-light animate_animated">Download CV</button></a>
+                </div>
+
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/parvjoshi/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/ParvJoshi192" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/Parv-Joshi" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+
+
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+                <center>
+                    <img src="./Images/hero-section_.png" />
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--ABOUT SECTION-->
+<div class="about_section" id="about" data-anchor="about">
+    <h1 class="about_section_title"><br><br>About Me<span style="color:var(--pink-color)">.</span></h1> 
+    <p class="about_section_subtitle" style="color:var(--pink-color); text-align: center !important">A brief about me</p>
+    <br><br>
+    <div class="container">
+        <div class="row" id="#about_row">
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 about_left">
+                <br>
+                <h4>I<span style="color: var(--pink-color)">'</span>m <span style="color: var(--pink-color-2); font-weight: bold;">Parv Joshi</span> and I<span style="color: var(--pink-color)">'</span>m a <br><span style="font-weight:bold;color:var(--pink-color)" class="typing1"></span>.</h4><br>
+                <img src="./Images/hero-section_.png" />
+                <p>
+                    Hi! I am currently a graduate student at Columbia University in the City of New York. I doing my Master of Science in Data Science. I am currently 21 years old. I am an Indian citizen, but a resident at Dubai, UAE. You can have a look at my education and experience history here. <br><br><br>
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 about_right">
+                <div class="qual_container container">
+                    <div class="qual_tabs">
+                        <span class="qual_button button--flex qual_active" data-target="#education">
+                            <i class="fas fa-graduation-cap qual_icon"></i>
+                            Education
+                        </span>
+
+                        &nbsp; &nbsp; &nbsp;
+
+                        <span class="qual_button button--flex" data-target="#experience">
+                            <i class="fas fa-suitcase qual_icon"></i>
+                            Experience
+                        </span>
+
+                        <br><br><br>
+
+                        <section class="qualification section">
+                            <div class="qual_sections">
+
+                                <div class="qual_content qual_active" data-content id="education">
+
+                                    <div class="qual_data">
+
+                                        <div>
+                                            <h5 class="qual_title">MS Data Science</h5>
+                                            <h8><span class="qual_subtitle">Columbia University</span><h8>
+                                            <div class="qual_calender" style="color:var(--secondary-color); font-size: 12px;">
+                                                <i class="fas fa-calendar-week"></i>
+                                                Sep 2021 - Dec 2022
+                                            </div>
+                                        </div>
+
+
+                                        <div>
+                                            <span class="qual_rounder"></span>
+                                            <span class="qual_line"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="qual_data">
+                                        <div></div>
+
+                                        <div>
+                                            <span class="qual_rounder"></span>
+                                            <span class="qual_line"></span>
+                                        </div>
+
+                                        <div>
+                                            <h5 class="qual_title">BS (Hons.) Applied Math and Stats, Economics</h5>
+                                            <h8><span class="qual_subtitle">SUNY Stony Brook University</span></h8>
+                                            <div class="qual_calender" style="color:var(--secondary-color); font-size: 12px;">
+                                                <i class="fas fa-calendar-week"></i>
+                                                Aug 2018 - Dec 2021
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="qual_data">
+
+                                        <div>
+                                            <h5 class="qual_title">High School Graduate</h5>
+                                            <h8><span class="qual_subtitle">Our Own High School</span></h8>
+                                            <div class="qual_calender" style="color:var(--secondary-color); font-size: 12px;">
+                                                <i class="fas fa-calendar-week"></i>
+                                                Sep 2004 - Apr 2018
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <span class="qual_rounder"></span>
+                                            <!-- <span class="qual_line"></span> -->
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="qual_content" data-content id="experience">
+
+
+                                    <div class="qual_data">
+
+                                        <div>
+                                            <h5 class="qual_title">Independent Researcher</h5>
+                                            <h8><span class="qual_subtitle">SUNY Stony Brook University</span></h8>
+                                            <div class="qual_calender" style="color:var(--secondary-color); font-size: 12px;">
+                                                <i class="fas fa-calendar-week"></i>
+                                                Jan 2021 - May 2021
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <span class="qual_rounder"></span>
+                                            <span class="qual_line"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="qual_data">
+                                        <div></div>
+
+                                        <div>
+                                            <span class="qual_rounder"></span>
+                                            <span class="qual_line"></span>
+                                        </div>
+
+                                        <div>
+                                            <h5 class="qual_title">Undergraduate Teaching Assistant</h5>
+                                            <h8><span class="qual_subtitle">SUNY Stony Brook University</span></h8>
+                                            <div class="qual_calender" style="color:var(--secondary-color); font-size: 12px;">
+                                                <i class="fas fa-calendar-week"></i>
+                                                Aug 2020 - May 2021
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="qual_data">
+
+                                        <div>
+                                            <h5 class="qual_title">Public Relations Officer</h5>
+                                            <h8><span class="qual_subtitle">Sigma Beta Honor Society</span></h8>
+                                            <div class="qual_calender" style="color:var(--secondary-color); font-size: 12px;">
+                                                <i class="fas fa-calendar-week"></i>
+                                                Aug 2019 – May 2021
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <span class="qual_rounder"></span>
+                                            <span class="qual_line"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="qual_data">
+                                        <div></div>
+
+                                        <div>
+                                            <span class="qual_rounder"></span>
+                                            <span class="qual_line"></span>
+                                        </div>
+
+                                        <div>
+                                            <h5 class="qual_title">Undergraduate College Fellow</h5>
+                                            <h8><span class="qual_subtitle">Department of ITS, Stony Brook</span></h8>
+                                            <div class="qual_calender" style="color:var(--secondary-color); font-size: 12px;">
+                                                <i class="fas fa-calendar-week"></i>
+                                                Jan 2019 – Dec 2019
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="qual_data">
+
+                                        <div>
+                                            <h5 class="qual_title">Graphic Designer (F1 in Schools)</h5>
+                                            <h8><span class="qual_subtitle">Team 21m/s, Spartan Racing</span></h8>
+                                            <div class="qual_calender" style="color:var(--secondary-color); font-size: 12px;">
+                                                <i class="fas fa-calendar-week"></i>
+                                                Sep 2015 – Sep 2017
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <span class="qual_rounder"></span>
+                                            <!-- <span class="qual_line"></span> -->
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SKILLS SECTION -->
+<div class="skills_section" id="skills" data-anchor="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-ms-24 col-xs-24 skills_up">
+                <h1 style="text-align: center;"><br><br>My Skills<span style="color:var(--pink-color)">.</span></h1>
+                <p class="about_section_subtitle" style="color:var(--pink-color); text-align: center;">My technical skills<br><br></p>
+            </div>
+            <div class="col-lg-12 col-md-12 col-ms-24 col-xs-24 skills_down">
+
+                <div class="skills_container container grid">
+                    <div>
+                        <!-- Skill 1 -->
+                        <div class="skills_content skills_open">
+                            <div class="skills_header">
+                                <i class="fas fa-code skills_icon" style="color:var(--pink-color); font-size: 22px; cursor: pointer;"></i>
+                                &ensp;
+                                <div style="display: inline-block;">
+                                    <h5 class="skills_title" style="color:white; ;">Programming Languages</h5>
+                                </div>
+                                &ensp;
+                                <i class="fas fa-angle-down skills_arrow" style="color:var(--pink-color);display: inline-block; cursor: pointer;"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles" style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                        <h7 class="skills_name">Python</h7>
+                                        <span class="skills_number">83%</span>
+                                    </div>
+                                    <div class="skills_bar" style="height: 5px; border-radius: 0.25rem; background-color: var(--secondary-color);">
+                                        <span class="skills_percentage skills_python" style="display: block;height: 5px; border-radius: 0.25rem; background-color: var(--pink-color) !important;width: 83%;">
+
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles" style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                        <h7 class="skills_name">R</h7>
+                                        <span class="skills_number">70%</span>
+                                    </div>
+                                    <div class="skills_bar" style="height: 5px; border-radius: 0.25rem; background-color: var(--secondary-color);">
+                                        <span class="skills_percentage skills_r" style="display: block;height: 5px; border-radius: 0.25rem; background-color: var(--pink-color) !important;width: 70%;">
+
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles" style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                        <h7 class="skills_name">SAS</h7>
+                                        <span class="skills_number">35%</span>
+                                    </div>
+                                    <div class="skills_bar" style="height: 5px; border-radius: 0.25rem; background-color: var(--secondary-color);">
+                                        <span class="skills_percentage skills_sas" style="display: block;height: 5px; border-radius: 0.25rem; background-color: var(--pink-color) !important;width: 35%;">
+
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        &nbsp
+                        <!-- Skill 2 -->
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="fas fa-database skills_icon" style="color:var(--pink-color); font-size: 22px; cursor: pointer;"></i>
+                                &ensp;
+                                <div style="display: inline-block;">
+                                    <h5 class="skills_title" style="color:white;">Databases</h5>
+                                </div>
+                                &ensp;
+                                <i class="fas fa-angle-down skills_arrow" style="color:var(--pink-color); cursor: pointer;"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles" style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                        <h7 class="skills_name">SQL</h7>
+                                        <span class="skills_number">85%</span>
+                                    </div>
+                                    <div class="skills_bar" style="height: 5px; border-radius: 0.25rem; background-color: var(--secondary-color);">
+                                        <span class="skills_percentage skills_sql" style="display: block;height: 5px; border-radius: 0.25rem; background-color: var(--pink-color) !important;width: 85%;">
+
+                                        </span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        &nbsp
+                        <!-- Skill 3 -->
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="fas fa-chart-line skills_icon" style="color:var(--pink-color); font-size: 22px; cursor: pointer;"></i>
+                                &ensp;
+                                <div style="display: inline-block;">
+                                    <h5 class="skills_title" style="color:white;">Business Intelligence</h5>
+                                </div>
+                                &ensp;
+                                <i class="fas fa-angle-down skills_arrow" style="color:var(--pink-color); cursor: pointer;"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles" style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                        <h7 class="skills_name">Tableau</h7>
+                                        <span class="skills_number">40%</span>
+                                    </div>
+                                    <div class="skills_bar" style="height: 5px; border-radius: 0.25rem; background-color: var(--secondary-color);">
+                                        <span class="skills_percentage skills_tableau" style="display: block;height: 5px; border-radius: 0.25rem; background-color: var(--pink-color) !important;width: 40%;">
+
+                                        </span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        &nbsp
+                        <!-- Skill 4 -->
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="fas fa-edit skills_icon" style="color:var(--pink-color); font-size: 22px; cursor: pointer;"></i>
+                                &ensp;
+                                <div style="display: inline-block;">
+                                    <h5 class="skills_title" style="color:white;">Graphic Design</h5>
+                                </div>
+                                &ensp;
+                                <i class="fas fa-angle-down skills_arrow" style="color:var(--pink-color); cursor: pointer;"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles" style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                        <h7 class="skills_name">Adobe Illustrator</h7>
+                                        <span class="skills_number">85%</span>
+                                    </div>
+                                    <div class="skills_bar" style="height: 5px; border-radius: 0.25rem; background-color: var(--secondary-color);">
+                                        <span class="skills_percentage skills_ai" style="display: block;height: 5px; border-radius: 0.25rem; background-color: var(--pink-color) !important;width: 85%;">
+
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles" style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                        <h7 class="skills_name">Adobe Photoshop</h7>
+                                        <span class="skills_number">37%</span>
+                                    </div>
+                                    <div class="skills_bar" style="height: 5px; border-radius: 0.25rem; background-color: var(--secondary-color);">
+                                        <span class="skills_percentage skills_psd" style="display: block;height: 5px; border-radius: 0.25rem; background-color: var(--pink-color) !important;width: 37%;">
+
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles" style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                        <h7 class="skills_name">Adobe Premiere Pro</h7>
+                                        <span class="skills_number">60%</span>
+                                    </div>
+                                    <div class="skills_bar" style="height: 5px; border-radius: 0.25rem; background-color: var(--secondary-color);">
+                                        <span class="skills_percentage skills_premiere_pro" style="display: block;height: 5px; border-radius: 0.25rem; background-color: var(--pink-color) !important;width: 60%;">
+
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br>
+
+<!-- PROJECTS SECTION -->
+<div class="projects_section" id="projects" data-anchor="projects">
+    <h1 class="text-white text-center projects_section_title" style="margin-top: -100px;"><br><br>My Projects<span style="color:var(--pink-color)">.</span></h1>
+    <p class="projects_section_subtitle" style="color:var(--pink-color); text-align: center;">A brief portfolio of my projects<br><br></p>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <nav class="d-flex justify-content-center">
+					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link active" data-toggle="tab" href="#nav-DSML" role="tab" aria-controls="nav-DSML" id="nav-DSML-tab" aria-selected="true">Data Science / Machine Learning</a>
+						<a class="nav-item nav-link" data-toggle="tab" href="#nav-GD" role="tab" aria-controls="nav-GD" id="nav-GD-tab" aria-selected="false">Graphic Design</a>
+                        <a class="nav-item nav-link" data-toggle="tab" href="#nav-OTH" role="tab" aria-controls="nav-OTH" id="nav-OTH-tab" aria-selected="false">Others</a>
+					</div>
+				</nav>
+				<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-DSML" role="tabpanel" aria-labelledby="nav-DSML-tab">
+						<div class="card-columns">
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://github.com/Parv-Joshi/Text-Prediction-RNN-Project" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Text Prediction Using RNN.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-github"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Text Prediction using RNN</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://github.com/Parv-Joshi/Breast-Cancer-Classification" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Breast Cancer Classification.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-github"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Breast Cancer Classification</p>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://github.com/Parv-Joshi/Combined-Cycle-Power-Plant-Regression" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Combined Cycle Power Plant Regression.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-github"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Combined Cycle Power Plant Regression</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+					</div>
+
+                    
+
+					<div class="tab-pane fade" id="nav-GD" role="tabpanel" aria-labelledby="nav-GD-tab">
+                        <div class="card-columns">
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://drive.google.com/drive/folders/1ZxJOB6_zCD8knlEo_doOkCa_Uza7-iJu" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Logos.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-google-drive"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Logos</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://drive.google.com/drive/folders/1kExlfdHvmG6KhUU9yLigUArvhES0faG4" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Social Media.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-google-drive"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Social Media</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://drive.google.com/drive/folders/1dVyg3TIhNomk7M4Xaw8LM45ANgW2XGb9" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Professional Documents.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-google-drive"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Professional Documents</p>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://drive.google.com/drive/folders/1LjL0gF0mS9Z2Ddfak-1vwDnopNqX_QZr" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Flyers and Posters.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-google-drive"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Flyers and Posters</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://drive.google.com/drive/folders/1ZK2W1GCwpBMrUk37kBtdRfCh7p1XJEF7" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Film Making.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-google-drive"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Film Making</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://drive.google.com/drive/folders/16pdhGQAqdvHipRYdV8_xwP-Pj4mbxSgj" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Others.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-google-drive"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Others</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+
+                    <div class="tab-pane fade" id="nav-OTH" role="tabpanel" aria-labelledby="nav-OTH-tab">
+						<div class="card-columns">
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://github.com/Parv-Joshi/Econometrics-Research-Coivd-19-and-Economic-Development" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Covid-19 Econometrics.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-github"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Covid-19 Econometrics</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://github.com/Parv-Joshi/Online-Shopping-Portal-Project" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/OOHS Bay.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-github"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">OOHS Bay</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://github.com/Parv-Joshi/Online-Banking-Simulation-Project" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/OOHS Bank.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-github"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">OOHS Bank</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://github.com/Parv-Joshi/Economic-Development-Comparison-Project" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Economic Development Comparision.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-github"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Economic Development Comparision</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://github.com/Parv-Joshi/Econometrics-Project-Healthcare" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Healthcare Econometrics.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-github"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Healthcare Econometrics</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card border-0 padding-0">
+                                <div class="content">
+                                    <a class="project_card" href="https://github.com/Parv-Joshi/Human-Behavior-Data-Analysis-Project" target="blank_">
+                                        <div class="content-overlay"></div>
+                                        <img class="card-img-top content-image" src="./Images/Human Behavior Data Analysis.png"/>
+                                        <div class="content-details fadeIn-bottom">
+                                            <button class="btn"><i class="fab fa-github"></i></button>
+                                        </div>
+                                        <p style="color: var(--pink-color); margin-top: 15px;" class="text-center">Human Behavior Data Analysis</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+					</div>
+
+				</div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</div>
+
+<!-- CONTACT SECCTION -->
+<div class="contact_section" id="contact" data-anchor="contact">
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-lg-12 col-md-12 col-sm-24 col-xs-24">
+                <p><br></p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h3 class="heading">Contact Me<span style="color: var(--pink-color);">.</span></h3>
+                    <hr class="hr">
+                    <p class="txt">Feel free to contact me</p>
+                    <form action="https://formsubmit.co/pj2384@columbia.edu" method="POST">
+                        <input type="hidden" name="_autoresponse" value="Thank you for using the contact form on my website. I will get back to you shortly.">
+                        <div class="form-group">
+                            <input class="form-control" name="name" placeholder="Your Full Name" type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" name="email"  placeholder="Your Email Address" type="email" required>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" name="title"  placeholder="Title" type="text" required>
+                        </div>
+                        <textarea class="form-control" name="message"  placeholder="Your message..." required></textarea>
+                        <br>
+                        <div class="form-group">
+                            <button class="btn btn-light animate__animated" type="submit">Submit</button>
+                        </div>
+                    </form>
+                    <br><br>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fa fa-envelope-o"></i> &ensp; pj2384@columbia.edu
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"></i> &ensp; (631) 455-5189
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div class="map_wrapper map-responsive">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="525" height="327" id="gmap_canvas" src="https://maps.google.com/maps?q=columbia%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br><br>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer-area" id="footer">
+    <div class="container">
+        <div class="row py-5">
+            <div class="logo-area col-lg-4 col-md-4 col-sm-12 col-12">
+                <a class="navbar-brand text-white text-center" herf="#home">
+                    Parv Joshi<span style="font-weight:bolder;color:var(--pink-color)">.</span>
+                    <!-- <br><br> -->
+                </a>
+                <div class="links">
+                    <a href="mailto: pj2384@columbia.edu" target="_blank"><i class="fas fa-envelope animate_animated"></i></a>
+                    <a href="https://www.linkedin.com/in/parvjoshi/" target="_blank"><i class="fab fa-linkedin animate_animated"></i></a>
+                    <a href="https://twitter.com/ParvJoshi192" target="_blank"><i class="fab fa-twitter animate_animated"></i></a>
+                    <br><br>
+                    <a href="https://github.com/Parv-Joshi" target="_blank"><i class="fab fa-github animate_animated"></i></a>
+                    <a href="https://drive.google.com/drive/u/1/folders/1wHAIJBBZHYvBL6NR6jSEKIigcAs92JVC" target="_blank"><i class="fab fa-google-drive animate_animated"></i></a>
+                    <a href="https://medium.com/" target="_blank"><i class="fab fa-medium-m animate_animated"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 column">
+                <ul class="list-group">
+                    <!-- <br><br> -->
+                    <li class="list-group-item border-0 bg-transparent">
+                        <a class="navbarlink active" href="#home"><i class="fa fa-chevron-right"></i> <span>Home</span></a>
+                    </li>
+                    <li class="list-group-item border-0 bg-transparent">
+                        <a class="navbarlink" href="#about"><i class="fa fa-chevron-right"></i> <span>About</span></a>
+                    </li>
+                    <li class="list-group-item border-0 bg-transparent">
+                        <a class="navbarlink" href="#skills"><i class="fa fa-chevron-right"></i> <span>Skills</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 column">
+                <ul class="list-group">
+                    <!-- <br><br> -->
+                    <li class="list-group-item border-0 bg-transparent">
+                        <a class="navbarlink" href="#projects"><i class="fa fa-chevron-right"></i> <span>Projects</span></a>
+                    </li>
+                    <li class="list-group-item border-0 bg-transparent">
+                        <a class="navbarlink" href="https://medium.com/" target="blank_"><i class="fa fa-chevron-right"></i> <span>Blog</span></a>
+                    </li>
+                    <li class="list-group-item border-0 bg-transparent">
+                        <a class="navbarlink" href="#contact"><i class="fa fa-chevron-right"></i> <span>Contact</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p class="text-center">Parv Joshi<br>Copyright © 2021</p>
+</div>
+
+
+<div id="particles-js"></div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    particlesJS.load('particles-js', 'particles.json',
+    function(){
+        console.log('particles.json loaded...')
+    })
+</script>
+
+<script type="text/javascript" src="./Js/app.js"></script>
+<script type="text/javascript" src="./Js/particles.js"></script>
+
+
+<div class="loader-wrapper"
+    <!-- Loading square for squar.red network -->
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+<script>
+    $(window).on("load", function(){
+        $(".loader-wrapper").delay(1500).fadeOut("slow");
+    })
+</script>
+
+<script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+        document.body.classList.toggle("light-theme");
+        if(document.body.classList.contains("light-theme")){
+            icon.src = "./Images/moon.png";
+        } else {
+            icon.src = "./Images/sun1.png";
+        }
+    }
+</script>
+
+</body>
+</html>
